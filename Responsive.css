@@ -1,0 +1,218 @@
+@media(max-width: 1250px){
+    /*trends div start here */
+
+    .trends_itmes_div{
+        height: 90rem;
+    }
+
+    .trends_items_4,.trends_items_5,.trends_items_6{
+        height: 35rem;
+    }
+
+    /*trends div ends here*/
+}
+
+@media(max-width: 1200px){
+    html{
+        font-size: 55%;
+    }
+
+    .navbar_box_div{
+        margin-left: 5rem;
+    }   
+
+
+}
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .logo_div{
+        margin-left: -4rem;
+    }
+
+    .navbar_box_div{
+        margin-left: 0rem;
+    }
+
+    .icon_div{
+        float: right;
+    }
+
+
+    /*trends div start here */
+    
+    .trends_items_1,.trends_items_2,.trends_items_3{
+        height: 33rem;
+    }
+
+    /*trends div ends here*/
+
+}
+
+@media(max-width: 768px){
+    
+    .logo_div{
+        margin-left: 2rem;
+    }
+
+    .icon_div{
+        margin-right: 2rem;
+    }
+
+    .navbar_box_div{
+        position: absolute;
+        top: 10rem;
+        right: 0%;
+        width: 75%;
+        height: 30rem;
+        margin-right: 1.5rem;
+        background-color:  #5cdb95;
+        border:0.2rem solid #05386B;
+        border-radius: 0.5rem;
+        /*display: none;*/
+    }
+
+    .nav_li{
+        display: block; 
+        padding-top: 2rem;
+    }
+
+    .menu{
+        display: block;
+    }
+
+    /*icon here */
+
+    /* search*/
+    .search_div{
+        left: 20%;
+        width: 75%;
+    }
+
+    /*user form*/
+
+    .form_div{
+         left: 20%;
+        width: 75%;
+    }
+
+
+    /*trends div start here */
+    .trends_itmes_div{
+        height: 130rem;
+    }
+
+    .trends_items_1,.trends_items_3,.trends_items_5{
+        width: 45%;
+        margin-left: 3rem;
+    }
+
+    .trends_items_2,.trends_items_4{
+        width: 45%;
+        margin-left: 4rem;
+        height: 33rem;
+    }
+
+    .trends_items_6{
+        width: 45%;
+        margin-left: 4rem;
+    }
+
+
+    /*sixth phase start here */
+    .inforamtion_second_div{
+        width: 50%;
+        left: 50%;
+        transform: translate(-30%);
+    }
+    /*sixth phase ends here */
+
+}
+
+@media (max-width:640px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .Main_image_div{
+        height: 100vh;
+    }
+
+    /*discription div here*/
+    .description_div{
+        width: 100%;
+        height: 50vh;
+        display: block;
+        float: left;
+    }
+
+
+    /*imgae div*/
+    .img_div{
+        width: 100%;
+        display: block;
+        height: 50vh;
+        float: left;        
+    }
+
+    /*foruth phase start here*/
+    .question_div{
+        height: 48rem;
+    }
+
+    .programming_div,.compitison_div,.gk_div,.rating_div{
+        width: 100%;
+        height: 10rem;
+    }
+    /*foruth phase ends here */
+
+      /*frequent div qiestion answer */
+    .second_main_div{
+        width: 95%;
+        left: 0%;
+        transform: translate(0%);
+        margin-left: 2.4rem;
+    }
+
+}
+
+@media(max-width: 559px){
+    .trends_itmes_div{
+        height: 255rem;
+    }
+
+    .trends_items_1,.trends_items_2,.trends_items_3,.trends_items_4,.trends_items_5,.trends_items_6{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .second_main_div{
+        margin-left: 1rem;
+    }
+
+    .inforamtion_second_div{
+        width: 80%;
+        left: 50%;
+        transform: translate(-35%);
+    }
+
+    /*frequent div question ends here */
+    .Conclusion_main_div{
+        text-align: center;
+    }
+
+    .company_div{
+        padding-left: 0rem;
+    }
+    .company_div,.Learn_div,.practice_div{
+        width: 100%;
+    }
+
+    /*frequent div ends here */
+}

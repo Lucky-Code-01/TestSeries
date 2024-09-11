@@ -1,0 +1,824 @@
+*{
+	margin:0rem;
+	padding:0rem;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+/*header main div*/
+.Main_header_div{
+	background-color: #5cdb95;
+	width: 100%;
+	height: 8rem;
+    box-shadow: 0px 1px 5px green;
+    z-index: 5;
+    position: sticky;
+    top: 0;
+}
+
+/*header main div ends here*/
+
+/*logo_div start here */
+.logo_div{
+	margin-top: 1.5rem;
+	float: left;
+}
+
+.logo_img{
+	float: left;
+	width: 4rem;
+	height: 4rem;
+}
+
+.logo_heading{
+	float: left;
+	color: #05386B;
+	font-size: 2.4rem;
+	font-weight: 600;
+}
+
+/*logo_div start here ends here */
+
+
+.navbar_box_div{
+	float: left;
+	margin-top: 2.5rem;
+	margin-left: 10rem;
+}
+
+.nav_li{
+	display: inline-block;
+	margin-left: 1.8rem;
+}
+
+.nav_li a{
+	color: #05386B;
+	font-size: 1.7rem;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.down_icon{
+	color: #05386B;
+}
+
+
+
+ /*drop down div start here */
+
+ .drop_cate{
+	display: inline-block;
+}
+
+
+.drop_down_div{
+	position: relative;
+	display: none;
+	margin-top: 2rem;
+}
+
+.drop_down_div ul{
+	width: 100%;
+	height: 32rem;
+	color: #05386B;
+	background-color: #5cdb95;
+	position: absolute;
+}
+
+.drop_li{
+	padding-top:2rem;	
+}
+
+.drop_li a{
+	color: #05386B;
+	font-size: 1.8rem;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.menu{
+	display: none;
+}
+
+.menu,.search,.user,.moon{
+	font-size: 3rem;
+	cursor: pointer;
+	float: right;
+	margin-left: 1rem;
+	background-color:#05386B;
+	padding: 0.3rem 0.3rem;
+	border-radius: 0.5rem;
+	color: #5cdb95;
+}
+
+.search:hover,.menu:hover,.moon:hover,.user:hover{
+	color: #5cdb95;
+	background-color: white;
+	transition: 0.3s ease;
+}
+
+
+.icon_div{
+	/*display: none;*/
+	float: right;
+	margin-top: 2rem;
+}
+
+/*slider icon start here */
+.slider_navdiv{
+	float: left;
+}
+
+.search_div{
+	position: absolute;
+	top: 12rem;
+	left: 68%;
+	width: 30%;
+	height: 4rem;
+	display: none;
+}
+
+.search_form{
+	width: 100%;
+	height: 4rem;	
+	border-radius: 0.5rem;
+	border:0.1rem solid #05386B;
+	box-shadow: 0px 0px 5px 0px #aaa;
+}
+
+.search_bar{
+	width: 90%;
+	background:transparent;
+	font-size: 1.8rem;
+	padding-left: 0.8rem;
+	outline: none;
+	border:none;
+	float: left;
+	margin-top: 0.5rem;
+}
+
+.search_btn{
+	background:transparent;
+	width: 10%;
+	border:none;
+	outline:none;
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: #5cdb95;
+	float: left;
+	margin-top: 0.5rem;
+}
+
+/*form login*/
+
+.form_div{
+	position: absolute;
+	top: 12rem;
+	left: 73%;
+	width: 25%;
+	background-color:  #5cdb95;
+	display: none;
+}
+
+.login_form{
+	width: 100%;
+	border:0.2rem solid #05386B;
+	height: 30rem;
+	border-radius: 0.5rem;
+}
+
+.login_heading{
+	font-size: 3rem;
+	font-weight: 600;
+	text-align: center;
+	color: #05386B;
+}
+
+.uname,.uemail{
+	width: 92%;
+	font-size: 1.8rem;
+	border-radius: 0.5rem;
+	border:0.1rem solid #05386B;
+	margin-left: 1rem;
+	padding-left: 0.5rem;
+	box-shadow: 0px 0px 3px 0px #aaa;
+	outline: none;
+	height: 4rem;
+}
+
+.form_des{
+	font-size: 1.6rem;
+	text-align: center;
+	font-weight: 600;
+	color: #05386B;
+}
+
+.login_btn{
+	border:none;
+	outline: none;
+	padding:0.8rem 4rem;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	font-weight: 600;
+	text-align: center;
+	background-color: #05386B;
+	color: #5cdb95;
+}
+
+.login_btn:hover{
+	background-color: white;
+	border:0.1rem solid #05386B;
+	transition: 0.3s ease;
+}
+
+/*form login ends here */
+
+/*icon toggle class*/
+
+.show_data{
+	display: block;
+}
+
+/*.mydata{
+	display: block;
+}*/
+
+/*darkmode class*/
+.dark_mode{
+	background-color: black;
+	color: white;
+}
+
+/*like and share toggle class*/
+.like_share{
+	display: block;
+}
+	
+/*like and share toggle class ends here*/
+
+/*slider icon ends here */
+
+
+
+/*second phase start here */
+.Main_image_div{
+	width: 100%;
+	height: 40rem;
+	background-color: #5cdb95;
+}
+
+
+/*discription div here*/
+.description_div{
+	width: 50%;
+	height: 40rem;
+	float: left;
+	text-align: center;
+}
+
+.slogan{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #05386B;
+	margin-top: 10rem;
+}
+
+small{
+	font-weight: 600;
+	color: #05386B;
+	font-size: 1.5rem;
+}
+
+
+.des_btn{
+	padding: 0.8rem 3rem;
+	margin-top: 2rem;
+	font-size: 1.8rem;
+	background-color: #05386B;
+	color: #5cdb95;
+	font-weight: 600;
+	outline: none;
+	border: none;
+	border-radius: 0.5rem;
+}
+
+.des_btn:hover{
+	background-color: white;
+	color: green;
+	transition: 0.3s ease;
+}
+
+/*image div her */
+.img_div{
+	width: 50%;
+	height: 40rem;
+	float: left;
+}
+
+.mid_img{
+	width: 100%;
+	height: 100%;
+}
+
+/*second phase ends here */
+
+
+/*third pase start here */
+.trends_div{
+	width: 100%;
+	height: 7rem;
+	background-color: #5cdb95;
+	box-shadow: 0px 0px 5px gray;
+	text-align: center;
+}	
+
+.trend-head{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #05386B;
+	margin-top: 1rem;
+	display: inline-block;
+}
+/*third pase ends here */
+
+
+/*third second phase start here*/
+.trends_itmes_div{
+	width: 100%;
+	height: 80rem;
+}
+
+
+/*trends start first stocks*/
+.trends_items_1{
+	width: 30%;
+	height: 30rem;
+	background-color: #5cdb95;
+	margin-top: 8rem;
+	margin-left: 6rem;
+	float: left;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+/*icons here */
+.heart{
+	float: left;
+	font-size: 3rem;
+	margin-left: 1rem;
+	margin-top: 1rem;
+	color: #05386B;
+	cursor: pointer;
+}
+
+.share{
+	float: right;
+	font-size: 3rem;
+	margin-right: 1rem;
+	margin-top: 1rem;
+	color: #05386B;
+	cursor: pointer;
+}
+/*icons ends here */
+
+/*image  here  and there things start here*/
+.trends_python_img{
+	width: 20rem;
+	height: 10rem;
+	margin-top: 1rem;
+}
+
+.trends_python_head,.trends_gk_head,.trends_reasoning_head,.trends_maths_head,.trends_kotlin_head,.trends_javascript_head{
+	font-size: 2.4rem;
+	margin-top: 1rem;
+	font-weight: 600;
+	color: #05386B;
+}
+
+.trends_python_info,.trends_gk_info,.trends_reasoning_info,.trends_maths_info,.trends_kotlin_info,.trends_javascript_info{
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: #05386B;
+}
+
+.trends_python_button,.trends_gk_button,.trends_reasoning_button,.trends_maths_button,.trends_kotlin_button,.trends_javascript_button{
+	border:none;
+	outline: none;
+	padding:0.6rem 2rem;
+	font-size: 2rem;
+	border-radius: 0.5rem;
+	font-weight: 600;
+	text-align: center;
+	background-color: #05386B;
+	color: #5cdb95;
+	margin-top: 1rem;
+}
+
+.trends_python_button:hover,.trends_gk_button:hover,.trends_reasoning_button:hover,.trends_maths_button:hover,.trends_kotlin_button:hover,.trends_javascript_button:hover{
+	background-color: white;
+	color: green;
+	transition: 0.3s ease;
+}
+
+.arrow{
+	margin-top: 0.6rem;
+	margin-left: 0.5rem;
+	float: right;
+}
+
+/*image ends here there things start here*/
+
+
+/*trends  ends here  stocks*/
+
+
+/*trends start second stocks*/
+.trends_items_2{
+	width: 30%;
+	height: 30rem;
+	background-color:#5cdb95;
+	float: left;
+	margin-top: 8rem;
+	margin-left: 1rem;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+/*image and other thing start here*/
+.trends_gk_img{
+	width: 15rem;
+	height: 10rem;
+	margin-top: 1rem;
+}
+
+/*trends second ends here  stocks*/
+
+/*trends start third stocks*/
+.trends_items_3{
+	width: 30%;
+	height: 30rem;
+	background-color:#5cdb95;
+	float: left;
+	margin-top: 8rem;
+	margin-left: 1rem;
+	text-align: center;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+}
+
+/*image reasoning here */
+.trends_reasoning_img{
+	width: 15rem;
+	height: 10rem;
+	margin-top: 1rem;
+}
+/*image reasoning ends here*/
+
+/*trends third ends here  stocks*/
+
+
+
+/*trends start four stocks*/
+.trends_items_4{
+	width: 30%;
+	height: 30rem;
+	background-color:#5cdb95;
+	float: left;
+	margin-top: 8rem;
+	margin-left: 6rem;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+/*image and other thing start here*/
+.trends_maths_img{
+	width: 15rem;
+	height: 12rem;
+	margin-top: 1rem;
+}
+
+/*image and other things ends here*/
+
+/*trends four ends here  stocks*/
+
+
+
+/*trends start five stocks*/
+.trends_items_5{
+	width: 30%;
+	height: 30rem;
+	background-color:#5cdb95;
+	float: left;
+	margin-top: 8rem;
+	margin-left: 1rem;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+/*image and other things start here*/
+
+.trends_kotlin_img{
+	width: 15rem;
+	height: 12rem;
+	margin-top: 1rem;
+}
+
+/*image and other things ends here*/
+
+/*trends five ends here  stocks*/
+
+/*trends start six stocks*/
+.trends_items_6{
+	width: 30%;
+	height: 30rem;
+	background-color:#5cdb95;
+	float: left;
+	margin-top: 8rem;
+	margin-left: 1rem;
+	border-radius:0.5rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+/*image and other things start here*/
+.trends_javascript_img{
+	width: 20rem;
+	margin-top: 1rem;
+	height: 12rem;
+}
+
+/*trends six ends here  stocks*/
+
+/*third second phase ends here*/
+
+/*fourth phase start here */
+.question_div{
+	width: 100%;
+	height: 15rem;
+	box-shadow:0px 0px 10px #aaa;
+	text-align: center;
+}
+
+
+.programming_div{
+	width: 25%;
+	height: 10rem;
+	float: left;
+	/*margin-left: 5rem;*/
+	margin-top: 1.5rem;
+}
+
+.compitison_div,.gk_div,.rating_div{
+	height: 10rem;
+	width: 25%;
+	float: left;
+	margin-top: 1.5rem;
+}
+
+
+.program_question,.compitison_question,.gk_question,.rating_num{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #05386B;
+}
+
+.description_programming_head,.description_compitison_head,.description_gk_head,.description_rating{
+	font-size: 2rem;
+	color: #5cdb95;
+	font-weight: 600;
+}
+
+/*fourth phase ends here */
+
+
+
+/*fifth phase start here */
+.main_frequent_div{
+	width: 100%;
+	margin-top: 2rem;
+	text-align: center;
+}
+
+.second_main_div{
+	width: 50%;
+	left: 50%;
+	top: 5%;
+	transform: translate(50%);
+}
+
+.frequent_main_head{
+	margin-bottom: 2rem;
+	font-size: 3rem;
+	color: #05386B;
+	font-weight: 600;
+	display: inline-block;
+}
+
+.frequent_quest_div1,.frequent_quest_div2,.frequent_quest_div3,.frequent_quest_div4,.frequent_quest_div5,.frequent_quest_div6,.frequent_quest_div7,.frequent_quest_div8,.frequent_quest_div9,.frequent_quest_div10{
+	background-color: white;
+	border:1px solid black;
+	border-radius: 0.5rem;
+	display: block;
+}
+
+.q1,.q2,.q3,.q4,.q5,.q6,.q7,.q8,.q9,.q10{
+	font-size: 1.8rem;
+	font-weight: 600;
+	margin-left: 1rem;
+	color: green;
+	float: left;
+}
+
+.question1,.question2,.question3,.question4,.question5,.question6,.question7,.question8,.question9,.question10{
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #05386B;
+	display: inline-block;
+}
+
+.down,.down2,.down3,.down4,.down5,.down6,.down7,.down8,.down9,.down10{
+	float: right;
+	font-size: 1.6rem;
+	font-weight: 600;
+	color: green;
+	margin-right: 1rem;
+	margin-top: 0.8rem;
+	cursor: pointer;
+}
+
+.ans1,.ans2,.ans3,.ans4,.ans5,.ans6,.ans7,.ans8,.ans9,.ans10{
+	display: none;
+	margin-top: 1rem;
+	font-size: 1.4rem;
+	color: #5cdb95;
+	font-weight: 600;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	font-family: cursive;
+}
+
+.desgin{
+	transform: rotate(180deg);
+	transition: 0.3s ease-in-out;
+}
+
+
+.answershow{
+	display: block;
+}
+
+/*fifth phase ends here */
+
+
+/*sixth phase start here */
+.inforamtion_main_div{
+	width: 100%;
+	height:25rem;
+	position: relative;
+	margin-top: 5rem;
+}
+
+.inforamtion_second_div{
+	width: 30%;
+	position: absolute;
+	left: 30%;
+	transform: translate(30%);
+}
+
+
+.info_logo_img{
+	float: left;
+	margin-top: 1rem;
+}
+
+.info_logo{
+	font-size: 4rem;
+	font-weight: 600;
+	color: #05386B;
+	margin-left: 2rem;
+}
+
+
+.add_div{
+	margin-top: 2rem;
+}
+
+.loca_img,.email_img{
+	width: 2.5rem;
+	height: 2.5rem;
+	float: left;
+}
+
+.address_head,.email_head{
+	color: #05386B;
+	font-size: 1.6rem;
+	margin-left: 3rem;
+	font-weight: 600;
+}
+
+.social_div{
+	margin-left: 6rem;
+	margin-top: 2rem;
+}
+
+.facebook,.instagram,.youtube,.twitter{
+	font-size: 3rem;
+	background-color:#05386B;
+	color: #5cdb95;
+	cursor: pointer;
+	border-radius: 100%;
+	padding: 0.2rem;
+}
+
+.facebook:hover,.instagram:hover,.youtube:hover,.twitter:hover{
+	background-color: #5cdb95;
+	color: #05386B;
+	transition: 0.3s ease-in-out;
+}
+
+/*sixthe phase ends here */
+
+
+/*seventh phase start here */
+.Conclusion_main_div{
+	width: 100%;
+	height: 40rem;
+}
+
+.company_div{
+	padding-left: 5rem;
+	width: 33%;
+	float: left;
+}
+.Learn_div{
+	width: 33%;
+	float: left;
+}
+
+.practice_div{
+	width: 33%;
+	float: left;	
+}
+
+.comp_head,.learn_head,.practice_head{
+	font-size: 2.4rem;
+	font-weight: 600;
+	color: green;
+	margin-top:1rem;
+	margin-left: 2rem;
+}
+
+
+.comp_ul,.learn_ul,.practice_ul{
+	list-style: none;
+	font-size: 1.8rem;
+}
+
+.comp_li a,.learn_li a,.practice_li a{
+	color:#05386B;
+	text-decoration: none;
+	font-weight: 600;
+	line-height: 5rem;
+}
+
+.comp_li a:hover,.learn_li a:hover,.practice_li a:hover{
+	color: green;
+	border-bottom: 1px solid green;
+	transition: 0.3s ease-in-out;
+}
+
+/*seventh phase ends here*/
+
+/*eight phase start here */
+.footer_div{
+	width: 100%;
+	background-color: #5cdb95;
+	height: 5rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_head{
+	color: #05386B;
+	font-size: 2rem;
+	font-weight: 600;
+	line-height: 5rem;
+}
+.footer_web_link{
+	color: #05386B;
+	text-decoration: none;
+}
+.footer_web_link:hover{
+	border-bottom: 1px solid #05386B;
+}
+/*eight phase ends here */
